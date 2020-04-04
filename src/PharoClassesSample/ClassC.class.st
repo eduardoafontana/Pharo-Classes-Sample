@@ -1,7 +1,7 @@
 Class {
 	#name : #ClassC,
 	#superclass : #Object,
-	#category : #PharoClassesSample
+	#category : #'PharoClassesSample-Scenario1'
 }
 
 { #category : #'as yet unclassified' }
