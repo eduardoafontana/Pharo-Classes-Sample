@@ -23,6 +23,10 @@ dbg stepOver. ""...""
 Class {
 	#name : #ClassA,
 	#superclass : #Object,
+	#instVars : [
+		'var1A',
+		'var2A'
+	],
 	#category : #'PharoClassesSample-Scenario1'
 }
 
@@ -32,4 +36,24 @@ ClassA >> methodA1 [
 	ClassB new methodB2.
 	ClassB new methodB3.
 	^ClassB new methodB1.
+]
+
+{ #category : #accessing }
+ClassA >> var1A [
+	^ var1A
+]
+
+{ #category : #accessing }
+ClassA >> var1A: anObject [
+	var1A := anObject
+]
+
+{ #category : #accessing }
+ClassA >> var2A [
+	^ var2A
+]
+
+{ #category : #accessing }
+ClassA >> var2A: anObject [
+	var2A := anObject
 ]
